@@ -1,0 +1,11 @@
+A Sample Command Plugin for Radare2
+===================================
+Scott Dunlop <swdunlop@gmail.com>
+
+
+This is a skeletal sample for writing a Radare2 command plugin in C; this is not the most accessible way to add a command to Radare2, and also not the correct way to write a general purpose plugin, but it was the most direct way for me to patch in a few fixes for end-user stupidity.
+
+* The right way to add a plugin to Radare2: http://radare.org/y/?p=examples&f=plugins 
+* The easier way to script Radare2: http://radare.org/y/?p=examples&f=vala
+
+Much thanks to pancake and everyone involved in the r2 project -- it's nice to escape GDB for a while..
